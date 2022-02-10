@@ -186,7 +186,7 @@ export default function Gallery() {
                                         items.map(item => {
                                             const { image, image1, category } = item
                                             return (
-                                                <div className="col-md-6 col-lg-4 my-3 gal" style={{ transition: 'all 0.3s ease' }} key={item.id}>
+                                                <div className="col-md-6 col-lg-4 my-2 gal" style={{ transition: 'all 0.3s ease' }} key={item.id}>
                                                     <div class="card border-0" style={{ backgroundColor: 'transparent' }}>
                                                         <img src={image} className="d-block mb-2 w-100" alt="..." />
                                                         

@@ -11,7 +11,7 @@ export default function FifthSection() {
 
                 <div className='' style={{ backgroundColor: '#222124' }}>
                     <div className="container-fluid">
-                        <div className="py-5"></div>
+                        <div className=" py-3 py-md-5"></div>
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-7">

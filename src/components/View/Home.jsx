@@ -67,7 +67,7 @@ export default function Home() {
 
                 <div className='homesecondsec' style={{ position: 'relative' }}>
                     <div className="container-fluid">
-                        <div className="py-5"></div>
+                        <div className="py-md-5"></div>
                         <div className="container">
                             <div className="row pb-lg-5">
                                 <div className="col-md-12 col-lg-6 col-xl-5 ">
@@ -91,6 +91,11 @@ export default function Home() {
                                             <li className='pb-2'>Wir kümmern uns um die Zufriedenheit unserer Kunden</li>
                                         </ul>
                                         <button className="btn btn-sm btnLink px-3" style={{ background: '#BDA78A', color: '#222124' }} type="submit">Learn More</button>
+                                    </div>
+                                </div>
+                                <div className="col-md-12">
+                                    <div className="d-block d-lg-none text-center">
+                                        <img src={secondsec} className="img-fluid mx-auto" style={{ height: '100%' }} alt="" />
                                     </div>
                                 </div>
                             </div>

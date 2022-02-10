@@ -14,7 +14,7 @@ export default function FourthSection() {
 
                 <div className='homesecondsec' style={{ position: 'relative' }}>
                     <div className="container-fluid">
-                        <div className="py-5"></div>
+                        <div className="py-md-5"></div>
                         <div className="container">
                             <div className="row pb-5">
                                 <div className="col-md-12 col-lg-6 ">
